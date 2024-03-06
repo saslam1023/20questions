@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gstyle.css">
+    <script src="gscript.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js" defer></script>
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+
+    <title>20 Questions</title>
+
+</head>
+
+<body>
+    <header class="header">
+
+        <h1>20 Questions</h1>
+
+        <div id="timer" class=" timer">
+            <span>Time </span></span>0
+        </div>
+    </header>
+    <main class="container">
+        <section id="sidePanel" class="wrap">
+
+
+            <section id="content-info">
+                <h1>20 Questions</h1>
+                <p class="bold purplet">Test your knowledge with 20 Questions!</p>
+                <ul>
+                    <li>🎉&nbsp;&nbsp;Get set for a whirlwind of fun and learning ahead!
+                    </li>
+                    <li>🧠&nbsp;&nbsp;Boost your brainpower while polishing motor skills, typing, and spelling.</li>
+                    <li>🏆&nbsp;&nbsp;Master new subjects and skills with each question.</li>
+                    <li>🚀&nbsp;&nbsp;Dive in and practice until you conquer it all — 100% mastery awaits!</li>
+                </ul>
+                <label for="dataset-select">Choose your topic</label>
+                <select id="dataset-select" onchange="loadDataset()">
+                    <option value="" selected>Choose a topic</option>
+                    <option value="capital_cities">Capital Cities</option>
+                    <option value="css">CSS</option>
+                    <option value="html">HTML</option>
+                    <option value="capital_cities">Capital Cities</option>
+                    <option value="biology">Biology</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="computer_science">Computer Science</option>
+                    <option value="javascript">JavaScript</option>
+                    <!-- Add options for other datasets here -->
+                </select>
+                <p class="bold">You have 90 seconds to answer 20 questions.
+                <p>The timer starts when you click your first question box. </p>
+                <p class="purplet bold">Good luck!</p>
+            </section>
+        </section>
+
+        <section id="game" class="wrap">
+            <div class="modal" id="modalTimeOut">
+                <div class="modal-content">
+                    <h1>Time's Up!</h1>
+                    <div id="counter"></div>
+                    <button id="playagain" onclick="playAgain()">Play again</button>
+                    <button id="playagain" onclick="revealAnswers()">Reveal answers</button>
+                </div>
+            </div>
+            <div class="modal" id="winner">
+                <div class="modal-content">
+                    <h1>You did it!</h1>
+                    <div id="stats"></div>
+                    <button id="playagain" onclick="playAgain()">Play again</button>
+
+                </div>
+            </div>
+
+
+            <div id="grid" class="grid">
+            </div>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <h2 id="questionNo"></h2>
+                    <p id="question"></p>
+                    <input type="text" id="answer"><br>
+                    <button onclick="checkAnswer()">Submit</button>
+                    <p id="response" style="display: none;"></p>
+                    <button id="close" onclick="closeModal()">Close</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"><small><strong>20 Questions</strong> ▪▪ A <a href="#">Pixel Perfect</a> creation ▪▪</small>
+    </footer>
+</body>
+
+</html>
