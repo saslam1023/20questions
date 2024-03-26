@@ -1,59 +1,89 @@
-body {
+body,
+html {
     font-family: Arial, sans-serif;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     height: 100vh;
     background-color: #f0f0f0;
-    widows: 3;
-    orphans: 3;
-    border: 0px solid blue;
 
+    background-image: url("https://www.transparenttextures.com/patterns/ps-neutral.png");
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    border: none;
+    width: 100%;
 }
 
 header {
     margin-bottom: 20px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 2;
-    display: inline;
+    z-index: 50;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    /* Add box shadow */
 
 }
 
 .header {
-    background-color: indigo;
+    background-color: #4b0082;
     color: white;
     padding: 0 40px;
-}
-
-footer {
-
-    height: 50px;
-    margin-top: 20px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
 }
 
-.footer {
 
-    background-color: indigo;
-    color: white;
-    padding: 20px;
+
+footer {
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 49;
+    height: 80px;
+    margin: left 0;
+    margin-right: 0;
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+    /* Add box shadow */
+
 }
 
-small {
+
+.footer {
+    background-color: #4b0082;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-item {
+    padding: 0 40px;
+    margin: 0;
+}
+
+small,
+.small {
     font-size: small;
 }
+
+
 
 h1 {
     font-size: 30px;
     padding: 0;
+    display: block;
+    line-height: normal;
+    margin: 0;
+
 }
 
+main {
+    width: 100%;
+    background-color: 2px solid red;
+}
 
 .container {
     display: flex;
@@ -65,6 +95,9 @@ h1 {
     justify-content: center;
     border: 0px solid black;
     margin-top: 100px;
+    background-color: transparent;
+    padding: 0;
+
 }
 
 .center {
@@ -81,7 +114,8 @@ h1 {
 
 #content-info {
     background-color: white;
-    margin-left: 20px;
+
+    margin-top: 5px;
     font-size: 17px;
     border-radius: 8px;
     padding: 20px;
@@ -89,9 +123,14 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-self: flex-start;
-    width: 360px;
+    min-width: 360px;
+    max-width: 640px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
 
+.large {
+    font-size: larger;
+}
 
 .grid {
     display: flex;
@@ -109,22 +148,37 @@ h1 {
 
     text-align: center;
     word-break: keep-all;
-    padding: 20px;
+    padding: 0px;
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border: 0px solid #aaa;
     border-radius: 20px;
     margin: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 20px;
     cursor: pointer;
     position: relative;
+    padding: 5px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+
 }
+
+.box:hover {
+    filter: contrast(200%);
+    transform: translateY(-2px);
+}
+
+.boxExpand {
+    width: 260px;
+    height: 260px;
+}
+
 
 .green {
     background-color: #3df64a;
@@ -169,7 +223,7 @@ h1 {
 span {
 
     padding: 10px;
-    line-height: 3;
+    line-height: auto;
 }
 
 .break {
@@ -196,16 +250,22 @@ span {
     text-align: center;
     aspect-ratio: 1;
     width: 400px;
-    margin: 10% auto;
+    margin: 100px auto;
+    z-index: 70;
+}
+
+.modal-content h1 {
+    margin: 0;
 }
 
 .modal-content h2 {
     font-size: 30px;
     background-color: indigo;
     color: white;
-    margin: -30px -30px 30px -30px;
-    padding: 30px;
+    margin: -38px -30px 30px -30px;
+    padding: 40px 0 15px 0;
     border-radius: 8px 8px 0 0;
+    height: 30px;
 }
 
 .modal-content h3 {
@@ -213,8 +273,24 @@ span {
     background-color: indigo;
     color: white;
     margin: -10px -10px 20px -10px;
-    padding: 30px;
+    padding: 10px 30px;
     border-radius: 8px 8px 0 0;
+}
+
+.modal-content h4 {
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: normal;
+    color: indigo;
+    background-color: #e7d0f7;
+}
+
+.modal-content-bg {
+    background-color: rgb(231, 208, 247);
+    border-radius: 0 0 8px 8px;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .modal-content p {
@@ -238,6 +314,7 @@ span {
 
 .modal button {
     margin-top: 10px;
+    padding: 10px 30px;
     width: auto;
     height: 40px;
     background-color: indigo;
@@ -245,6 +322,26 @@ span {
     border: 1px solid transparent;
     color: white;
 
+}
+
+.theAnswer {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding: 0;
+    color: #fff;
+}
+
+.theQuestion {
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
 }
 
 ul {
@@ -258,22 +355,32 @@ li {
     margin-bottom: 15px;
 }
 
+#game {
+    margin-bottom: 100px;
+}
+
 #close {
     background-color: #bbbaba;
     height: 38px;
 }
 
 #timer {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
     text-align: center;
-    width: auto;
-    position: fixed;
-    top: 0;
-    right: 0;
-    margin-right: 40px;
-    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 80px;
+    background-color: #992be8;
+    border-radius: 4px;
+    padding: 5px;
+    z-index: 60;
+}
 
+.timer {
+    margin-right: 40px;
 }
 
 #counter {
@@ -327,6 +434,101 @@ option,
     margin: 8px;
 }
 
+.topics {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.readymsg {
+    font-size: 24px;
+    text-align: center;
+}
+
+.topic-box {
+    width: 150px;
+    height: 150px;
+
+    background-color: indigo;
+    color: white;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.topic-box:hover {
+    background-color: #992be8;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.topic-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.topic-text {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxQuestionNumber {
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+
+
+}
+
+#currentTopic {
+    font-size: 18px;
+
+    color: rgb(231, 208, 247);
+    font-weight: 100;
+    margin-top: -20px;
+}
+
+.boxcurrentTopic {
+    font-size: 14px;
+    color: black;
+    font-weight: 100;
+    width: 100%;
+    display: block;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#play,
+.play {
+    display: none;
+    width: 50%;
+    height: 50px;
+    background-color: #FFA500;
+    /*  background-color: rgb(231, 208, 247);*/
+    color: black;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+
+}
+
+#play:hover {
+    background-color: #ff6a00;
+    /* Change to a lighter shade on hover */
+}
+
 /* Tablet */
 
 @media (max-width: 800px) {
@@ -339,15 +541,115 @@ option,
 }
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     .container {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+
+
+    .header {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 20px;
+        align-items: center;
+        /* Allow items to wrap */
+    }
+
+    footer {
+
+        height: 80px;
+    }
+
+    /* Set 100% width for h1, h2, and div */
+    #title,
+    #topic,
+    h2#topic {
+        width: 100%;
+        font-size: 20px;
+        margin: 0;
+        padding: 0 10px;
+
+    }
+
+
+
+    #timer {
+        margin: 10px;
+        width: 80%;
+        font-size: 20px;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        background-color: red;
+    }
+
+    .box {
+        height: 160px;
+        width: 160px;
+        aspect-ratio: 1;
+        padding: 0;
+    }
+
+    .modal {
+        margin: 0 auto;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    div.modal-content {
+        width: 70%;
+        margin: 100px auto;
+        z-index: 80;
+    }
+
+    #stats p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        line-height: normal;
+    }
+
 }
+
+
+
 
 /* prevents box from click events */
 .locked {
     pointer-events: none;
+}
+
+
+/* timer*/
+
+#topic {
+    font-size: 30px;
+    color: rgb(231, 208, 247);
+    display: block;
+    font-weight: 100;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px 0px rgba(255, 255, 0, 0.7);
+    }
+
+    50% {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.9);
+    }
+
+    100% {
+        box-shadow: 0 0 10px 0px rgba(255, 255, 0, 0.7);
+    }
+}
+
+footer a {
+    color: #e7d0f7;
+    font-weight: 700;
+    text-decoration: none;
 }

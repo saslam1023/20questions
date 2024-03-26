@@ -19,10 +19,10 @@
 <body>
     <header class="header">
 
-        <h1>20 Questions</h1>
-
+        <h1 id="title">20 Questions</h1>
+        <h2 id="topic"></h2>
         <div id="timer" class=" timer">
-            <span>Time </span></span>0
+            0
         </div>
     </header>
     <main class="container">
@@ -32,47 +32,72 @@
             <section id="content-info">
                 <h1>20 Questions</h1>
                 <p class="bold purplet">Test your knowledge with 20 Questions!</p>
-                <ul>
-                    <li>🎉&nbsp;&nbsp;Get set for a whirlwind of fun and learning ahead!
-                    </li>
-                    <li>🧠&nbsp;&nbsp;Boost your brainpower while polishing motor skills, typing, and spelling.</li>
-                    <li>🏆&nbsp;&nbsp;Master new subjects and skills with each question.</li>
-                    <li>🚀&nbsp;&nbsp;Dive in and practice until you conquer it all — 100% mastery awaits!</li>
-                </ul>
-                <label for="dataset-select">Choose your topic</label>
-                <select id="dataset-select" onchange="loadDataset()">
-                    <option value="" selected>Choose a topic</option>
-                    <option value="capital_cities">Capital Cities</option>
-                    <option value="css">CSS</option>
-                    <option value="html">HTML</option>
-                    <option value="capital_cities">Capital Cities</option>
-                    <option value="biology">Biology</option>
-                    <option value="mathematics">Mathematics</option>
-                    <option value="physics">Physics</option>
-                    <option value="computer_science">Computer Science</option>
-                    <option value="javascript">JavaScript</option>
-                    <!-- Add options for other datasets here -->
-                </select>
-                <p class="bold">You have 90 seconds to answer 20 questions.
+
+                <div class="container topics" id="dataset-select">
+                    <div class="topic-box" onclick="loadDataset('capital_cities')">
+                        <span class="topic-icon">🌆</span>
+                        <span class="topic-text">Capital Cities</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('geography')">
+                        <span class="topic-icon">🌍</span>
+                        <span class="topic-text">Geography</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('art')">
+                        <span class="topic-icon">🎨</span>
+                        <span class="topic-text">Art</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('coding')">
+                        <span class="topic-icon">💻</span>
+                        <span class="topic-text">Coding</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('literature')">
+                        <span class="topic-icon">📚</span>
+                        <span class="topic-text">Literature</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('pop_culture')">
+                        <span class="topic-icon">🎬</span>
+                        <span class="topic-text">Pop Culture</span>
+                    </div>
+                </div>
+
+                <p class="bold readymsg purplet">You have 90 seconds to answer 20 questions.
                 <p>The timer starts when you click your first question box. </p>
-                <p class="purplet bold">Good luck!</p>
+                <ul>
+                    <li>🎉&nbsp;&nbsp;Get set for a whirlwind of <strong>fun and learning</strong> ahead!
+                    </li>
+                    <li>🧠&nbsp;&nbsp;<strong>Boost your brainpower</strong> while polishing motor skills, typing, and
+                        spelling.</li>
+                    <li>🏆&nbsp;&nbsp;<strong>Master new subjects and skills</strong> with each question.</li>
+                    <li>🚀&nbsp;&nbsp;Dive in and <strong>practice until you conquer it all</strong> — 100% mastery
+                        awaits!</li>
+                </ul>
+                <p class="purplet bold large">Good luck!</p>
             </section>
         </section>
 
         <section id="game" class="wrap">
+            <button id="play" class="play" onclick="playAgain()">Play again</button>
+
             <div class="modal" id="modalTimeOut">
                 <div class="modal-content">
                     <h1>Time's Up!</h1>
                     <div id="counter"></div>
                     <button id="playagain" onclick="playAgain()">Play again</button>
-                    <button id="playagain" onclick="revealAnswers()">Reveal answers</button>
+                    <button id="revealanswers">Reveal answers</button>
                 </div>
             </div>
             <div class="modal" id="winner">
                 <div class="modal-content">
                     <h1>You did it!</h1>
+
                     <div id="stats"></div>
-                    <button id="playagain" onclick="playAgain()">Play again</button>
+
+                    <button onclick="playAgain()">Play again</button>
 
                 </div>
             </div>
@@ -82,6 +107,7 @@
             </div>
             <div class="modal" id="modal">
                 <div class="modal-content">
+                    <h1 id="currentTopic"></h1>
                     <h2 id="questionNo"></h2>
                     <p id="question"></p>
                     <input type="text" id="answer"><br>
@@ -92,7 +118,18 @@
             </div>
         </section>
     </main>
-    <footer class="footer"><small><strong>20 Questions</strong> ▪▪ A <a href="#">Pixel Perfect</a> creation ▪▪</small>
+    <footer class="footer">
+        <div class="footer-item"><small><strong class="large">20 Questions</strong>&nbsp; ▪▪ A <a
+                    href="https://saslam1023.github.io">Pixel Perfect</a>
+                creation ▪▪</small></div>
+        <div class="footer-item">
+            <p class="small">Website designed by <a href="https://saslam1023.github.io" target="_blank"
+                    class="text-gray-200 hover:text-white">saslam1023</a></p>
+        </div>
+        <div class="small footer-item"><a href="https://saslam1023.github.io" target="_blank"
+                class="text-gray-200 hover:text-white">Visit
+                Pixel Perfect</a>
+        </div>
     </footer>
 </body>
 
