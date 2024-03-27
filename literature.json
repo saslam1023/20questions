@@ -2,7 +2,7 @@
     "questions": [
         {
             "question": "Who wrote 'The Great Gatsby'?",
-            "answer": "F. Scott Fitzgerald"
+            "answer": "F Scott Fitzgerald"
         },
         {
             "question": "What is the subtitle of 'Frankenstein'?",
@@ -10,7 +10,7 @@
         },
         {
             "question": "Who wrote the 'Harry Potter' series?",
-            "answer": "J.K. Rowling"
+            "answer": "J K Rowling"
         },
         {
             "question": "What is the setting of 'Moby Dick'?",
@@ -22,7 +22,7 @@
         },
         {
             "question": "Who wrote 'The Chronicles of Narnia'?",
-            "answer": "C.S. Lewis"
+            "answer": "C S Lewis"
         },
         {
             "question": "In which Shakespeare play does the character Ophelia appear?",
@@ -50,7 +50,7 @@
         },
         {
             "question": "What is the name of Sherlock Holmes' loyal friend?",
-            "answer": "Dr. Watson"
+            "answer": "Dr Watson"
         },
         {
             "question": "Who is the protagonist of 'The Hobbit'?",
