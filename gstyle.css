@@ -740,7 +740,7 @@ option,
     }
 
     .modal {
-        margin: 0 auto;
+        margin: 40px auto;
         padding: 0px;
         width: 100%;
     }
