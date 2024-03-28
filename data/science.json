@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Who developed the theory of general relativity?",
+            "answer": "Albert Einstein"
+        },
+        {
+            "question": "What is the chemical symbol for water?",
+            "answer": "H2O"
+        },
+        {
+            "question": "Who discovered penicillin?",
+            "answer": "Alexander Fleming"
+        },
+        {
+            "question": "What is the smallest unit of matter?",
+            "answer": "Atom"
+        },
+        {
+            "question": "What is the process by which plants make their own food called?",
+            "answer": "Photosynthesis"
+        },
+        {
+            "question": "Who proposed the theory of evolution by natural selection?",
+            "answer": "Charles Darwin"
+        },
+        {
+            "question": "What is the study of Earth's atmosphere called?",
+            "answer": "Meteorology"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "answer": "Skin"
+        },
+        {
+            "question": "What is the force that opposes the motion of objects through air called?",
+            "answer": "Drag"
+        },
+        {
+            "question": "Who is known as the father of modern physics?",
+            "answer": "Isaac Newton"
+        },
+        {
+            "question": "What is the closest star to Earth?",
+            "answer": "Sun"
+        },
+        {
+            "question": "What is the process by which plants release water vapor into the air called?",
+            "answer": "Transpiration"
+        },
+        {
+            "question": "Who discovered the laws of planetary motion?",
+            "answer": "Johannes Kepler"
+        },
+        {
+            "question": "What is the center of an atom called?",
+            "answer": "Nucleus"
+        },
+        {
+            "question": "What is the study of the Earth's past called?",
+            "answer": "Geology"
+        },
+        {
+            "question": "Who discovered the structure of DNA?",
+            "answer": "James Watson and Francis Crick"
+        },
+        {
+            "question": "What is the speed of light in a vacuum?",
+            "answer": "299,792 kilometers per second"
+        },
+        {
+            "question": "What is the study of heredity called?",
+            "answer": "Genetics"
+        },
+        {
+            "question": "Who proposed the laws of motion?",
+            "answer": "Isaac Newton"
+        },
+        {
+            "question": "What is the force that pulls objects towards each other called?",
+            "answer": "Gravity"
+        }
+    ]
+}

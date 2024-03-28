@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Who is known as 'The King of Pop'?",
+            "answer": "Michael Jackson"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "answer": "Leonardo da Vinci"
+        },
+        {
+            "question": "Who wrote 'To Kill a Mockingbird'?",
+            "answer": "Harper Lee"
+        },
+        {
+            "question": "Who is the author of 'Harry Potter' series?",
+            "answer": "J.K. Rowling"
+        },
+        {
+            "question": "Who founded Microsoft?",
+            "answer": "Bill Gates"
+        },
+        {
+            "question": "Who is the first person to step on the moon?",
+            "answer": "Neil Armstrong"
+        },
+        {
+            "question": "Who is the current President of the United States?",
+            "answer": "Joe Biden"
+        },
+        {
+            "question": "Who is the lead vocalist of the band Queen?",
+            "answer": "Freddie Mercury"
+        },
+        {
+            "question": "Who painted the ceiling of the Sistine Chapel?",
+            "answer": "Michelangelo"
+        },
+        {
+            "question": "Who is known as 'The Queen of Soul'?",
+            "answer": "Aretha Franklin"
+        },
+        {
+            "question": "Who is the creator of the theory of relativity?",
+            "answer": "Albert Einstein"
+        },
+        {
+            "question": "Who is the first woman to win a Nobel Prize?",
+            "answer": "Marie Curie"
+        },
+        {
+            "question": "Who is the founder of Amazon?",
+            "answer": "Jeff Bezos"
+        },
+        {
+            "question": "Who is the author of '1984'?",
+            "answer": "George Orwell"
+        },
+        {
+            "question": "Who is known as 'The Bard'?",
+            "answer": "William Shakespeare"
+        },
+        {
+            "question": "Who is the lead actor in the 'Pirates of the Caribbean' movies?",
+            "answer": "Johnny Depp"
+        },
+        {
+            "question": "Who is the first female Prime Minister of the United Kingdom?",
+            "answer": "Margaret Thatcher"
+        },
+        {
+            "question": "Who is the lead singer of the band U2?",
+            "answer": "Bono"
+        },
+        {
+            "question": "Who is known as 'The King of Rock and Roll'?",
+            "answer": "Elvis Presley"
+        },
+        {
+            "question": "Who is the current CEO of Tesla?",
+            "answer": "Elon Musk"
+        }
+    ]
+}

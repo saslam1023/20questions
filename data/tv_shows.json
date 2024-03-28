@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Which TV show features characters named Ross, Rachel, and Joey?",
+            "answer": "Friends"
+        },
+        {
+            "question": "What is the name of the animated TV series about a yellow family living in Springfield?",
+            "answer": "The Simpsons"
+        },
+        {
+            "question": "Which TV show follows the lives of a group of friends living in New York City?",
+            "answer": "Friends"
+        },
+        {
+            "question": "What is the name of the fantasy drama TV series based on the book series by George R.R. Martin?",
+            "answer": "Game of Thrones"
+        },
+        {
+            "question": "Which TV show is set in a high school called 'Liberty High'?",
+            "answer": "13 Reasons Why"
+        },
+        {
+            "question": "What is the name of the TV series about a time-traveling alien known as 'The Doctor'?",
+            "answer": "Doctor Who"
+        },
+        {
+            "question": "Which TV show features characters named Walter White and Jesse Pinkman?",
+            "answer": "Breaking Bad"
+        },
+        {
+            "question": "What is the name of the TV series about a group of survivors in a post-apocalyptic world overrun by zombies?",
+            "answer": "The Walking Dead"
+        },
+        {
+            "question": "Which TV show follows the lives of a group of scientists and their socially awkward neighbor?",
+            "answer": "The Big Bang Theory"
+        },
+        {
+            "question": "What is the name of the TV series about a high school chemistry teacher turned methamphetamine manufacturer?",
+            "answer": "Breaking Bad"
+        },
+        {
+            "question": "Which TV show is set in the fictional town of Hawkins, Indiana?",
+            "answer": "Stranger Things"
+        },
+        {
+            "question": "What is the name of the TV series about a vigilante who dresses as a bat to fight crime in Gotham City?",
+            "answer": "Gotham"
+        },
+        {
+            "question": "Which TV show features characters named Ted, Marshall, and Barney?",
+            "answer": "How I Met Your Mother"
+        },
+        {
+            "question": "What is the name of the TV series about a forensic analyst who solves crimes by analyzing blood spatter patterns?",
+            "answer": "Dexter"
+        },
+        {
+            "question": "Which TV show revolves around the lives of the employees of the Dunder Mifflin Paper Company?",
+            "answer": "The Office"
+        },
+        {
+            "question": "What is the name of the TV series about a high school chemistry teacher turned lawyer?",
+            "answer": "Better Call Saul"
+        },
+        {
+            "question": "Which TV show features characters named Sheldon, Leonard, and Penny?",
+            "answer": "The Big Bang Theory"
+        },
+        {
+            "question": "What is the name of the TV series about a group of kids who discover a mysterious girl with telekinetic powers?",
+            "answer": "Stranger Things"
+        },
+        {
+            "question": "Which TV show is set in a hospital called 'Sacred Heart'?",
+            "answer": "Scrubs"
+        },
+        {
+            "question": "What is the name of the TV series about a family of dysfunctional superheroes?",
+            "answer": "The Umbrella Academy"
+        }
+    ]
+}

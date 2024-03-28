@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gstyle.css">
-    <script src="gscript.js" defer></script>
+    <script src="script.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js" defer></script>
 
     <link
@@ -19,9 +19,15 @@
 <body>
     <header class="header">
 
-        <h1 id="title">20 Questions</h1>
-        <h2 id="topic"></h2>
-        <div id="timer" class=" timer">
+        <div>
+            <h1 id="title">20 Questions</h1>
+        </div>
+        <div>
+            <h2 id="topic"></h2>
+
+
+        </div>
+        <div id="timer" class=" timer right-aligned">
             0
         </div>
     </header>
@@ -63,21 +69,93 @@
                         <span class="topic-icon">🎬</span>
                         <span class="topic-text">Pop Culture</span>
                     </div>
+                    <div class="topic-box" onclick="loadDataset('football')">
+                        <span class="topic-icon">⚽️</span>
+                        <span class="topic-text">Football</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('tv_shows')">
+                        <span class="topic-icon">📺</span>
+                        <span class="topic-text">TV Shows</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('tv_shows_2')">
+                        <span class="topic-icon">📺</span>
+                        <span class="topic-text">TV Shows 2</span>
+                    </div>
+
+
+                    <div class="topic-box" onclick="loadDataset('uk_trivia')">
+                        <span class="topic-icon">🇬🇧</span>
+                        <span class="topic-text">UK Trivia</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('food')">
+                        <span class="topic-icon">🍔</span>
+                        <span class="topic-text">Food</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('sport')">
+                        <span class="topic-icon">🏋️‍♂️</span>
+                        <span class="topic-text">Sport</span>
+                    </div>
+                    <div class="topic-box" onclick="loadDataset('history')">
+                        <span class="topic-icon">📜</span>
+                        <span class="topic-text">History</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('science')">
+                        <span class="topic-icon">🔬</span>
+                        <span class="topic-text">Science</span>
+                    </div>
+
+                    <div class="topic-box" onclick="loadDataset('famous_people')">
+                        <span class="topic-icon">👩‍🎤</span>
+                        <span class="topic-text">Famous People</span>
+                    </div>
+
                 </div>
 
-                <p class="bold readymsg purplet">You have 90 seconds to answer 20 questions.
-                <p>The timer starts when you click your first question box. </p>
-                <ul>
-                    <li>🎉&nbsp;&nbsp;Get set for a whirlwind of <strong>fun and learning</strong> ahead!
-                    </li>
-                    <li>🧠&nbsp;&nbsp;<strong>Boost your brainpower</strong> while polishing motor skills, typing, and
-                        spelling.</li>
-                    <li>🏆&nbsp;&nbsp;<strong>Master new subjects and skills</strong> with each question.</li>
-                    <li>🚀&nbsp;&nbsp;Dive in and <strong>practice until you conquer it all</strong> — 100% mastery
-                        awaits!</li>
-                </ul>
-                <p class="purplet bold large">Good luck!</p>
+
+                <p class="bold readymsg purplet">You have 90 seconds to answer 20 questions.</p>
+                <div class="content-column">
+                    <div>
+                        <h2>Rules of the game</h2>
+                        <ol id="rules" class="rules">
+                            <li>The timer starts when you click your first question box. You can pick any
+                                question box
+                                to start.</li>
+                            <li>Type your answer - spelling is important!</li>
+                            <li>If you get an answer wrong or incorrect, it is a penalty and that box will be disabled
+                                for 5
+                                seconds. </li>
+                            <li>Continue with your streak. </li>
+                            <li>When the penalty box time is over, select another box or try again with the penalty box
+                                to continue the game.</li>
+                            <li>You win if you answer all 20 questions correctly before the timer finishes.</li>
+                            <li>You will have a chance to reveal the answers if you did not win at the end.</li>
+                        </ol>
+                    </div>
+
+                    <div>
+                        <h2>Unlock Knowledge and Fun with 20 Questions!</h2>
+                        <ul id="intro">
+                            <li>🎉&nbsp;&nbsp;Get set for a whirlwind of <strong>fun and learning</strong> ahead!
+                            </li>
+                            <li>🧠&nbsp;&nbsp;<strong>Boost your brainpower</strong> while polishing motor skills,
+                                typing,
+                                and
+                                spelling.</li>
+                            <li>🏆&nbsp;&nbsp;<strong>Master new subjects and skills</strong> with each question.
+                            </li>
+                            <li>🚀&nbsp;&nbsp;Dive in and <strong>practice until you conquer it all</strong> — 100%
+                                mastery
+                                awaits!</li>
+                        </ul>
+                        <p class="purplet bold large">Good luck!</p>
+                    </div>
             </section>
+
         </section>
 
         <section id="game" class="wrap">
@@ -94,9 +172,7 @@
             <div class="modal" id="winner">
                 <div class="modal-content">
                     <h1>You did it!</h1>
-
                     <div id="stats"></div>
-
                     <button onclick="playAgain()">Play again</button>
 
                 </div>

@@ -1,0 +1,244 @@
+{
+    "questions": [
+        {
+            "question": "What does HTML stand for?",
+            "answer": "Hypertext Markup Language"
+        },
+        {
+            "question": "Which language for web apps?",
+            "answer": "JavaScript"
+        },
+        {
+            "question": "Primary CSS purpose?",
+            "answer": "Styling"
+        },
+        {
+            "question": "Dynamic website language?",
+            "answer": "JavaScript"
+        },
+        {
+            "question": "Function of 'for' loop?",
+            "answer": "Iteration"
+        },
+        {
+            "question": "What does SQL stand for?",
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "Language known for simplicity?",
+            "answer": "Python"
+        },
+        {
+            "question": "Role of a compiler?",
+            "answer": "Translation"
+        },
+        {
+            "question": "Purpose of Git?",
+            "answer": "Version control"
+        },
+        {
+            "question": "Language for Android apps?",
+            "answer": "Java"
+        },
+        {
+            "question": "What does API stand for?",
+            "answer": "Application Programming Interface"
+        },
+        {
+            "question": "Purpose of 'if' statement?",
+            "answer": "Condition"
+        },
+        {
+            "question": "Language for data analysis?",
+            "answer": "Python"
+        },
+        {
+            "question": "Purpose of 'print' in Python?",
+            "answer": "Output"
+        },
+        {
+            "question": "Main advantage of OOP?",
+            "answer": "Modularity"
+        },
+        {
+            "question": "Purpose of 'else' statement?",
+            "answer": "Alternative"
+        },
+        {
+            "question": "Language for iOS apps?",
+            "answer": "Swift"
+        },
+        {
+            "question": "Primary use of 'DOCTYPE'?",
+            "answer": "Specification"
+        },
+        {
+            "question": "What does CSS stand for?",
+            "answer": "Cascading Style Sheets"
+        },
+        {
+            "question": "Purpose of 'return' statement?",
+            "answer": "Exit"
+        },
+        {
+            "question": "Which language is often used for backend web development?",
+            "answer": "Python"
+        },
+        {
+            "question": "What does IDE stand for?",
+            "answer": "Integrated Development Environment"
+        },
+        {
+            "question": "Primary purpose of a function?",
+            "answer": "Abstraction"
+        },
+        {
+            "question": "What is the role of CSS frameworks like Bootstrap?",
+            "answer": "Styling"
+        },
+        {
+            "question": "What does API stand for?",
+            "answer": "Application Programming Interface"
+        },
+        {
+            "question": "Language for building scalable systems?",
+            "answer": "Java"
+        },
+        {
+            "question": "Purpose of 'while' loop?",
+            "answer": "Iteration"
+        },
+        {
+            "question": "What is the main advantage of using libraries in programming?",
+            "answer": "Reusability"
+        },
+        {
+            "question": "What is the purpose of the 'import' statement in Python?",
+            "answer": "Module"
+        },
+        {
+            "question": "Primary purpose of a database?",
+            "answer": "Storage"
+        },
+        {
+            "question": "What is the role of the 'else if' statement in programming?",
+            "answer": "Condition"
+        },
+        {
+            "question": "Which language is often used for data visualization?",
+            "answer": "JavaScript"
+        },
+        {
+            "question": "Purpose of 'git push' command?",
+            "answer": "Upload"
+        },
+        {
+            "question": "What is the main purpose of a constructor in object-oriented programming?",
+            "answer": "Initialization"
+        },
+        {
+            "question": "What is the function of the 'append' method in Python lists?",
+            "answer": "Addition"
+        },
+        {
+            "question": "Which language is known for its simplicity and readability?",
+            "answer": "Python"
+        },
+        {
+            "question": "Purpose of 'git pull' command?",
+            "answer": "Download"
+        },
+        {
+            "question": "Primary use of the 'head' tag in HTML?",
+            "answer": "Metadata"
+        },
+        {
+            "question": "What is the purpose of 'npm' in JavaScript development?",
+            "answer": "Package"
+        },
+        {
+            "question": "Which language is commonly used for machine learning?",
+            "answer": "Python"
+        },
+        {
+            "question": "Primary use of 'git clone' command?",
+            "answer": "Copy"
+        },
+        {
+            "question": "What does CSS Grid layout facilitate?",
+            "answer": "Layout"
+        },
+        {
+            "question": "Language for building dynamic web pages?",
+            "answer": "JavaScript"
+        },
+        {
+            "question": "Purpose of 'try' block in exception handling?",
+            "answer": "Error"
+        },
+        {
+            "question": "What does API endpoint provide?",
+            "answer": "Data"
+        },
+        {
+            "question": "Language for building cross-platform mobile apps?",
+            "answer": "React Native"
+        },
+        {
+            "question": "Primary use of the 'alt' attribute in HTML images?",
+            "answer": "Description"
+        },
+        {
+            "question": "Purpose of 'git commit' command?",
+            "answer": "Save"
+        },
+        {
+            "question": "What does MVC architecture stand for?",
+            "answer": "Model View Controller"
+        },
+        {
+            "question": "Language commonly used for scientific computing and data analysis?",
+            "answer": "Python"
+        },
+        {
+            "question": "Primary use of 'git branch' command?",
+            "answer": "Create"
+        },
+        {
+            "question": "What is the purpose of the 'await' keyword in JavaScript?",
+            "answer": "Asynchronous"
+        },
+        {
+            "question": "What does RESTful API stand for?",
+            "answer": "Representational State Transfer"
+        },
+        {
+            "question": "Primary use of the 'src' attribute in HTML?",
+            "answer": "Source"
+        },
+        {
+            "question": "Purpose of 'git merge' command?",
+            "answer": "Combine"
+        },
+        {
+            "question": "What does DOM stand for?",
+            "answer": "Document Object Model"
+        },
+        {
+            "question": "Language for developing desktop applications?",
+            "answer": "Java"
+        },
+        {
+            "question": "Primary use of 'git status' command?",
+            "answer": "Check"
+        },
+        {
+            "question": "What does JSON stand for?",
+            "answer": "JavaScript Object Notation"
+        },
+        {
+            "question": "Purpose of 'git init' command?",
+            "answer": "Initialize"
+        }
+    ]
+}

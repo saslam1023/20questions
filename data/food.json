@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "What is the main ingredient in guacamole?",
+            "answer": "Avocado"
+        },
+        {
+            "question": "Which cuisine is known for dishes like sushi and sashimi?",
+            "answer": "Japanese"
+        },
+        {
+            "question": "What is the primary ingredient in hummus?",
+            "answer": "Chickpeas"
+        },
+        {
+            "question": "Which type of pasta is shaped like small grains of rice?",
+            "answer": "Orzo"
+        },
+        {
+            "question": "What is the main ingredient in pad thai?",
+            "answer": "Rice noodles"
+        },
+        {
+            "question": "Which fruit is known as the 'king of fruits' and has a strong smell?",
+            "answer": "Durian"
+        },
+        {
+            "question": "What is the primary ingredient in risotto?",
+            "answer": "Rice"
+        },
+        {
+            "question": "Which spice is derived from the stigma of a flower and is one of the most expensive spices by weight?",
+            "answer": "Saffron"
+        },
+        {
+            "question": "What is the primary ingredient in paella?",
+            "answer": "Rice"
+        },
+        {
+            "question": "Which cuisine is known for dishes like tacos, burritos, and enchiladas?",
+            "answer": "Mexican"
+        },
+        {
+            "question": "What is the main ingredient in gazpacho?",
+            "answer": "Tomatoes"
+        },
+        {
+            "question": "Which type of cheese is used in traditional Greek salads?",
+            "answer": "Feta"
+        },
+        {
+            "question": "What is the primary ingredient in falafel?",
+            "answer": "Chickpeas"
+        },
+        {
+            "question": "Which fruit is known for its spiky outer shell and sweet flesh?",
+            "answer": "Pineapple"
+        },
+        {
+            "question": "What is the main ingredient in coq au vin?",
+            "answer": "Chicken"
+        },
+        {
+            "question": "Which type of bread is commonly used for making bruschetta?",
+            "answer": "Baguette"
+        },
+        {
+            "question": "What is the primary ingredient in pesto sauce?",
+            "answer": "Basil"
+        },
+        {
+            "question": "Which cuisine is known for dishes like curry, naan, and samosas?",
+            "answer": "Indian"
+        },
+        {
+            "question": "What is the main ingredient in baba ganoush?",
+            "answer": "Eggplant"
+        },
+        {
+            "question": "Which type of meat is traditionally used in beef stroganoff?",
+            "answer": "Beef"
+        }
+    ]
+}

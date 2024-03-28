@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Which TV series follows the lives of the Bluth family and their dysfunctional business?",
+            "answer": "Arrested Development"
+        },
+        {
+            "question": "What is the name of the fictional town where 'The Simpsons' live?",
+            "answer": "Springfield"
+        },
+        {
+            "question": "Which TV show features characters named Chandler, Ross, and Joey?",
+            "answer": "Friends"
+        },
+        {
+            "question": "What is the name of the methamphetamine-making chemistry teacher turned drug dealer in 'Breaking Bad'?",
+            "answer": "Walter White"
+        },
+        {
+            "question": "Which TV series follows the lives of the employees at the Dunder Mifflin Paper Company?",
+            "answer": "The Office"
+        },
+        {
+            "question": "Who is the main character in 'Doctor Who', a time-traveling alien?",
+            "answer": "The Doctor"
+        },
+        {
+            "question": "What is the name of the fictional continent where most of the events in 'Game of Thrones' take place?",
+            "answer": "Westeros"
+        },
+        {
+            "question": "Which TV show revolves around the lives of a group of friends living in New York City?",
+            "answer": "Friends"
+        },
+        {
+            "question": "What is the name of the high school teacher turned methamphetamine manufacturer in 'Breaking Bad'?",
+            "answer": "Walter White"
+        },
+        {
+            "question": "Which TV series features a group of survivors living in a post-apocalyptic world overrun by zombies?",
+            "answer": "The Walking Dead"
+        },
+        {
+            "question": "Who is the main character in 'The Mandalorian', a bounty hunter in the Star Wars universe?",
+            "answer": "The Mandalorian"
+        },
+        {
+            "question": "Which TV show is set in the fictional town of Hawkins, Indiana, in the 1980s?",
+            "answer": "Stranger Things"
+        },
+        {
+            "question": "What is the name of the parallel universe in 'Stranger Things'?",
+            "answer": "The Upside Down"
+        },
+        {
+            "question": "Which TV series features a fictional president named Josiah Bartlet?",
+            "answer": "The West Wing"
+        },
+        {
+            "question": "What is the name of the fictional advertising agency featured in 'Mad Men'?",
+            "answer": "Sterling Cooper"
+        },
+        {
+            "question": "Which TV show is a mockumentary sitcom that follows the lives of the Dunphy and Pritchett families?",
+            "answer": "Modern Family"
+        },
+        {
+            "question": "Who is the central character in 'Sherlock', a modern adaptation of Sherlock Holmes?",
+            "answer": "Sherlock Holmes"
+        },
+        {
+            "question": "Which TV series follows the lives of the Pearson family across different time periods?",
+            "answer": "This Is Us"
+        },
+        {
+            "question": "What is the name of the fictional paper company in 'The Office'?",
+            "answer": "Dunder Mifflin"
+        },
+        {
+            "question": "Which TV show features characters named Jon Snow, Daenerys Targaryen, and Tyrion Lannister?",
+            "answer": "Game of Thrones"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "questions": [
+        {
+            "question": "What is the name of the fictional wizarding school in the 'Harry Potter' series?",
+            "answer": "Hogwarts"
+        },
+        {
+            "question": "Which American animated sitcom features characters named Homer, Marge, Bart, Lisa, and Maggie?",
+            "answer": "The Simpsons"
+        },
+        {
+            "question": "Who is the lead vocalist of the British rock band Queen?",
+            "answer": "Freddie Mercury"
+        },
+        {
+            "question": "What is the highest-grossing film of all time (as of 2024)?",
+            "answer": "Avatar"
+        },
+        {
+            "question": "Which superhero is known as the 'Man of Steel'?",
+            "answer": "Superman"
+        },
+        {
+            "question": "Who played the character of Tony Stark/Iron Man in the Marvel Cinematic Universe?",
+            "answer": "Robert Downey Jr"
+        },
+        {
+            "question": "Which popular TV series follows the lives of the Stark, Lannister, and Targaryen families?",
+            "answer": "Game of Thrones"
+        },
+        {
+            "question": "Who is the creator of the 'Star Wars' franchise?",
+            "answer": "George Lucas"
+        },
+        {
+            "question": "What is the name of the fictional detective created by Arthur Conan Doyle?",
+            "answer": "Sherlock Holmes"
+        },
+        {
+            "question": "Which American singer is known as the 'Queen of Pop'?",
+            "answer": "Madonna"
+        },
+        {
+            "question": "What is the name of the fictional character who lives in a pineapple under the sea?",
+            "answer": "SpongeBob SquarePants"
+        },
+        {
+            "question": "Who is the author of the 'Twilight' book series?",
+            "answer": "Stephenie Meyer"
+        },
+        {
+            "question": "Which British science fiction TV series features a time-traveling alien known as 'The Doctor'?",
+            "answer": "Doctor Who"
+        },
+        {
+            "question": "What is the name of the coffee shop in the TV series 'Friends'?",
+            "answer": "Central Perk"
+        },
+        {
+            "question": "Who is the main antagonist in the 'Harry Potter' series?",
+            "answer": "Lord Voldemort"
+        },
+        {
+            "question": "Which American sitcom revolves around a group of scientists and their socially awkward neighbor?",
+            "answer": "The Big Bang Theory"
+        },
+        {
+            "question": "What is the name of the fictional continent where most of the events in 'Game of Thrones' take place?",
+            "answer": "Westeros"
+        },
+        {
+            "question": "Who is the creator of the animated TV series 'The Simpsons'?",
+            "answer": "Matt Groening"
+        },
+        {
+            "question": "Which British author wrote the 'James Bond' series of spy novels?",
+            "answer": "Ian Fleming"
+        },
+        {
+            "question": "What is the name of the artificial intelligence system in the 'Iron Man' films?",
+            "answer": "JARVIS"
+        },
+        {
+            "question": "What is the name of the main character in 'The Hunger Games' series of novels?",
+            "answer": "Katniss Everdeen"
+        },
+        {
+            "question": "Which actor portrayed Jack Dawson in the film 'Titanic'?",
+            "answer": "Leonardo DiCaprio"
+        },
+        {
+            "question": "Who is the creator of the animated TV series 'Family Guy'?",
+            "answer": "Seth MacFarlane"
+        },
+        {
+            "question": "What is the name of the fictional school attended by Archie Andrews and his friends in the 'Archie Comics' series?",
+            "answer": "Riverdale High"
+        },
+        {
+            "question": "Which American actress plays the character of Black Widow/Natasha Romanoff in the Marvel Cinematic Universe?",
+            "answer": "Scarlett Johansson"
+        },
+        {
+            "question": "What is the name of the theme park located in Orlando, Florida, known for its attractions based on movies and TV shows?",
+            "answer": "Universal Studios"
+        },
+        {
+            "question": "Who directed the film 'Jurassic Park'?",
+            "answer": "Steven Spielberg"
+        },
+        {
+            "question": "What is the name of the magical creature that guards the entrance to Hogwarts in the 'Harry Potter' series?",
+            "answer": "Hippogriff"
+        },
+        {
+            "question": "Which British actress played Hermione Granger in the 'Harry Potter' film series?",
+            "answer": "Emma Watson"
+        },
+        {
+            "question": "What is the name of the fictional town where the TV series 'The Simpsons' is set?",
+            "answer": "Springfield"
+        },
+        {
+            "question": "Who is the author of the 'A Song of Ice and Fire' book series, which inspired the TV series 'Game of Thrones'?",
+            "answer": "George R R Martin"
+        },
+        {
+            "question": "Which British musician released the album 'Back to Black'?",
+            "answer": "Amy Winehouse"
+        },
+        {
+            "question": "What is the name of the dragon owned by Daenerys Targaryen in 'Game of Thrones'?",
+            "answer": "Drogon"
+        },
+        {
+            "question": "Who played the character of Rachel Green in the TV series 'Friends'?",
+            "answer": "Jennifer Aniston"
+        },
+        {
+            "question": "What is the name of the fictional world created by J.R.R. Tolkien in 'The Lord of the Rings'?",
+            "answer": "Middle earth"
+        },
+        {
+            "question": "Which American filmmaker directed the 'Star Wars' sequel trilogy?",
+            "answer": "JJ Abrams"
+        },
+        {
+            "question": "What is the name of the street where the main characters of 'Sesame Street' live?",
+            "answer": "Sesame Street"
+        },
+        {
+            "question": "Who is the author of the 'Percy Jackson & the Olympians' book series?",
+            "answer": "Rick Riordan"
+        },
+        {
+            "question": "Which American TV series follows the lives of a group of high school students at Liberty High School?",
+            "answer": "13 Reasons Why"
+        },
+        {
+            "question": "What is the name of the fictional city in which Batman operates?",
+            "answer": "Gotham"
+        }
+    ]
+}

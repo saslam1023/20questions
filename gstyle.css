@@ -21,19 +21,37 @@ header {
     z-index: 50;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     /* Add box shadow */
-
 }
 
 .header {
     background-color: #4b0082;
     color: white;
     padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, auto) 1fr;
+    /* Three columns for items, one column for the right-aligned item */
+    justify-content: flex-start;
     align-items: center;
 }
 
+.header .right-aligned {
+    justify-self: end;
+    /* Aligns the last item to the right within its grid cell */
+}
 
+
+
+header div {
+    display: inline;
+}
+
+header h2 {
+    content: ":";
+    text-align: left;
+    width: auto;
+    padding-left: 20px;
+    margin-right: 5px;
+}
 
 footer {
     margin-top: 20px;
@@ -42,7 +60,7 @@ footer {
     left: 0;
     width: 100%;
     z-index: 49;
-    height: 80px;
+    height: 40px;
     margin: left 0;
     margin-right: 0;
     box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
@@ -100,12 +118,38 @@ main {
 
 }
 
+
+.content-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Two columns */
+    gap: 70px;
+    margin: 20px;
+}
+
+
+
+#rules ul {
+    margin: 0;
+    padding: 17px 27px;
+}
+
+#rules li {
+    list-style: decimal;
+    text-indent: 0px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
 .center {
     margin: 0 auto;
     text-align: right;
 }
 
-.wrap {
+.xwrap {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -114,17 +158,14 @@ main {
 
 #content-info {
     background-color: white;
-
+    margin-bottom: 50px;
     margin-top: 5px;
     font-size: 17px;
     border-radius: 8px;
     padding: 20px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-self: flex-start;
     min-width: 360px;
-    max-width: 640px;
+    max-width: 960px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
 }
 
@@ -256,6 +297,7 @@ span {
 
 .modal-content h1 {
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .modal-content h2 {
@@ -280,7 +322,7 @@ span {
 .modal-content h4 {
     font-size: 30px;
     margin: 0;
-    padding: 10px 0;
+    padding: 0;
     line-height: normal;
     color: indigo;
     background-color: #e7d0f7;
@@ -344,12 +386,12 @@ span {
     display: block;
 }
 
-ul {
+#intro ul {
     margin: 0;
     padding: 17px 27px;
 }
 
-li {
+#intro li {
     list-style: none;
     text-indent: -28px;
     margin-bottom: 15px;
@@ -383,7 +425,8 @@ li {
     margin-right: 40px;
 }
 
-#counter {
+#counter,
+#stats {
     font-size: 20px;
     margin-bottom: 10px;
     background-color: rgb(231, 207, 249);
@@ -392,6 +435,8 @@ li {
     text-align: center;
     width: auto;
 }
+
+
 
 .bold {
     font-weight: bold;
@@ -494,9 +539,7 @@ option,
 
 #currentTopic {
     font-size: 18px;
-
     color: white;
-
     font-weight: 100;
     margin-top: -20px;
 }
@@ -531,7 +574,7 @@ option,
 
 /* Tablet */
 
-@media (max-width: 800px) {
+/*@media (max-width: 800px) {
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -539,6 +582,7 @@ option,
     }
 
 }
+*/
 
 /* Mobile */
 @media (max-width: 600px) {
@@ -620,8 +664,10 @@ option,
         gap: 0px;
     }
 
-    main.container {
+    main.container,
+    .content-column {
         display: block;
+        margin: 0 auto;
     }
 
     .grid {
@@ -669,7 +715,7 @@ option,
     #content-info {
         background-color: white;
         display: block;
-        margin: 0 10px 50px 10px;
+        margin: 0 auto 50px auto;
         font-size: 17px;
         border-radius: 8px;
         padding: 20px;
@@ -751,6 +797,8 @@ option,
         z-index: 80;
         box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
     }
+
+
 
     #modalTimeOut {
         margin-top: 40px;

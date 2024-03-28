@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Who was the first president of the United States?",
+            "answer": "George Washington"
+        },
+        {
+            "question": "In what year did World War II end?",
+            "answer": "1945"
+        },
+        {
+            "question": "Who wrote 'The Communist Manifesto'?",
+            "answer": "Karl Marx"
+        },
+        {
+            "question": "What year did the Titanic sink?",
+            "answer": "1912"
+        },
+        {
+            "question": "Who was the first emperor of Rome?",
+            "answer": "Augustus"
+        },
+        {
+            "question": "What year did the Berlin Wall fall?",
+            "answer": "1989"
+        },
+        {
+            "question": "Who was the first female prime minister of the United Kingdom?",
+            "answer": "Margaret Thatcher"
+        },
+        {
+            "question": "What year did Christopher Columbus arrive in the Americas?",
+            "answer": "1492"
+        },
+        {
+            "question": "Who was the leader of the Soviet Union during World War II?",
+            "answer": "Joseph Stalin"
+        },
+        {
+            "question": "What year did the United States declare independence from Great Britain?",
+            "answer": "1776"
+        },
+        {
+            "question": "Who was the last queen of France before the French Revolution?",
+            "answer": "Marie Antoinette"
+        },
+        {
+            "question": "What year did the American Civil War end?",
+            "answer": "1865"
+        },
+        {
+            "question": "Who was the first man to walk on the moon?",
+            "answer": "Neil Armstrong"
+        },
+        {
+            "question": "What year did the Renaissance begin?",
+            "answer": "14th century"
+        },
+        {
+            "question": "Who was the first emperor of China?",
+            "answer": "Qin Shi Huang"
+        },
+        {
+            "question": "What year did World War I begin?",
+            "answer": "1914"
+        },
+        {
+            "question": "Who was the first female pharaoh of ancient Egypt?",
+            "answer": "Hatshepsut"
+        },
+        {
+            "question": "What year did the Magna Carta become law?",
+            "answer": "1215"
+        },
+        {
+            "question": "Who was the longest-reigning monarch in British history?",
+            "answer": "Queen Victoria"
+        },
+        {
+            "question": "What year did the French Revolution begin?",
+            "answer": "1789"
+        }
+    ]
+}
