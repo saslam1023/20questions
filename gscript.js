@@ -205,6 +205,7 @@ function closeModal() {
     document.getElementById('modal').style.display = 'none';
 }
 
+/* original
 function checkAnswer() {
     const answer = document.getElementById('answer').value.toLowerCase();
     const correctAnswer = questions[currentBox - 1].answer.toLowerCase();
@@ -251,13 +252,64 @@ function checkAnswer() {
             if (index > -1) {
                 lockedBoxes.splice(index, 1);
             }
-        }, 1000); // Lock for 10 seconds
+        }, 2000); // Lock for 5 seconds
     }
 
     document.getElementById('response').style.display = 'block';
 
 }
+*/
 
+/*new checkanswer*/
+function checkAnswer() {
+    const answer = document.getElementById('answer').value.toLowerCase();
+    const correctAnswer = questions[currentBox - 1].answer.toLowerCase();
+
+    if (answer === correctAnswer) {
+        count();
+        console.log(`counter: ` + counter);
+        console.log(`counterSelected: ` + counterSelected);
+        document.getElementById('response').textContent = 'Correct answer!';
+        document.getElementById('response').style.color = 'green';
+        document.getElementById('box' + currentBox).style.backgroundColor = '#7fff88';
+        lockedBoxes.push(currentBox);
+        // hide immediately
+        document.getElementById('modal').style.display = 'none';
+        closeModal();
+    } else {
+        document.getElementById('response').textContent = 'Incorrect answer! Try again in 10 seconds.';
+        if (counterWrong < 20) {
+            counterWrong += 1;
+        }
+        if (counterSelected < 20) {
+            counterSelected += 1;
+        }
+        console.log(`counterWrong: ` + counterWrong);
+        console.log(`counterSelected: ` + counterSelected);
+
+        // Set crimson color and lock for 5 seconds
+        document.getElementById('response').style.color = 'red';
+        document.getElementById('box' + currentBox).style.backgroundColor = 'crimson';
+        lockedBoxes.push(currentBox);
+        setTimeout((current) => {
+            document.getElementById('box' + current).style.backgroundColor = '#ccc'; // Change color back to grey
+            const index = lockedBoxes.indexOf(current);
+            if (index > -1) {
+                lockedBoxes.splice(index, 1);
+            }
+        }, 5000, currentBox); // Lock for 5 seconds
+
+        // Hide modal after 1 second
+        setTimeout(() => {
+            document.getElementById('modal').style.display = 'none';
+        }, 1000);
+    }
+
+    document.getElementById('response').style.display = 'block';
+}
+
+
+/* end new check answer*/
 
 
 
@@ -285,7 +337,7 @@ function updateTimer() {
         clearInterval(timerInterval); // Stop the timer
         document.getElementById('modal').style.display = 'none';
         document.getElementById('modalTimeOut').style.display = 'block';
-        document.getElementById('counter').innerHTML = '<h3>Your Stats</h3><div><span class="greent material-icons-two-tone ">check_circle_outline</span>' + counter + ' out of 20<span class="bold">CORRECT</span><br><span class="material-icons-two-tone redt">report_gmailerrorred</span>' + counterWrong + ' out of ' + counterSelected + ' questions<span class="bold">INCORRECT</span><br><span class="material-icons-two-tone purplet">post_add</span>' + counterSelected + ' total questions<span class="bold">SELECTED</span></div>';
+        document.getElementById('counter').innerHTML = '<h3>Your Stats</h3><div><span class="greent material-icons-two-tone ">check_circle_outline</span>' + counter + ' out of 20<span class="bold">CORRECT</span><br><span class="material-icons-two-tone redt">report_gmailerrorred</span>' + counterWrong + ' out of ' + counterSelected + '<span class="bold">INCORRECT</span><br><span class="material-icons-two-tone purplet">post_add</span>' + counterSelected + ' total <span class="bold">SELECTED</span></div>';
     } else if (counter === 20) { // Check if all questions are answered correctly
         winner(); // Invoke winner function
     }
