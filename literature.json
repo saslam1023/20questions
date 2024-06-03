@@ -2,99 +2,184 @@
     "questions": [
         {
             "question": "Who wrote 'The Great Gatsby'?",
-            "answer": "F Scott Fitzgerald"
+            "answer": [
+                "F Scott Fitzgerald",
+                "Fitzgerald"
+            ]
         },
         {
             "question": "What is the subtitle of 'Frankenstein'?",
-            "answer": "The Modern Prometheus"
+            "answer": [
+                "The Modern Prometheus",
+                "Modern Prometheus"
+            ]
         },
         {
             "question": "Who wrote the 'Harry Potter' series?",
-            "answer": "J K Rowling"
+            "answer": [
+                "J K Rowling",
+                "Rowling",
+                "JK Rowling"
+            ]
         },
         {
             "question": "What is the setting of 'Moby Dick'?",
-            "answer": "Whaling ship"
+            "answer": [
+                "Whaling ship",
+                "Whaling vessel",
+                "On a ship"
+            ]
         },
         {
             "question": "Who is the author of 'The Adventures of Huckleberry Finn'?",
-            "answer": "Mark Twain"
+            "answer": [
+                "Mark Twain",
+                "Twain",
+                "Samuel Clemens"
+            ]
         },
         {
             "question": "Who wrote 'The Chronicles of Narnia'?",
-            "answer": "C S Lewis"
+            "answer": [
+                "C S Lewis",
+                "Lewis",
+                "Clive Staples Lewis"
+            ]
         },
         {
             "question": "In which Shakespeare play does the character Ophelia appear?",
-            "answer": "Hamlet"
+            "answer": [
+                "Hamlet"
+            ]
         },
         {
             "question": "What is the first line of 'Pride and Prejudice'?",
-            "answer": "It is a truth universally acknowledged"
+            "answer": [
+                "It is a truth universally acknowledged",
+                "Universal truth",
+                "Famous line"
+            ]
         },
         {
             "question": "What is the subtitle of 'The Catcher in the Rye'?",
-            "answer": "A Novel"
+            "answer": [
+                "A Novel",
+                "Novel",
+                "Book"
+            ]
         },
         {
             "question": "Who wrote 'The Odyssey'?",
-            "answer": "Homer"
+            "answer": [
+                "Homer"
+            ]
         },
         {
             "question": "In '1984', what is the government organization that surveils citizens called?",
-            "answer": "Big Brother"
+            "answer": [
+                "Big Brother",
+                "Government"
+            ]
         },
         {
             "question": "Who wrote 'The Scarlet Letter'?",
-            "answer": "Nathaniel Hawthorne"
+            "answer": [
+                "Nathaniel Hawthorne",
+                "Hawthorne",
+                "Nathaniel"
+            ]
         },
         {
             "question": "What is the name of Sherlock Holmes' loyal friend?",
-            "answer": "Dr Watson"
+            "answer": [
+                "Dr Watson",
+                "Watson",
+                "Doctor Watson"
+            ]
         },
         {
             "question": "Who is the protagonist of 'The Hobbit'?",
-            "answer": "Bilbo Baggins"
+            "answer": [
+                "Bilbo Baggins",
+                "Bilbo",
+                "Baggins"
+            ]
         },
         {
             "question": "Who wrote 'The Iliad'?",
-            "answer": "Homer"
+            "answer": [
+                "Homer"
+            ]
         },
         {
             "question": "What is the name of the protagonist in 'The Hunger Games'?",
-            "answer": "Katniss Everdeen"
+            "answer": [
+                "Katniss Everdeen",
+                "Katniss"
+            ]
         },
         {
             "question": "In which book series would you find the character Atticus Finch?",
-            "answer": "To Kill a Mockingbird"
+            "answer": [
+                "To Kill a Mockingbird",
+                "Mockingbird",
+                "Harper Lee"
+            ]
         },
         {
             "question": "What is the setting of 'Jane Eyre'?",
-            "answer": "England"
+            "answer": [
+                "England",
+                "British countryside",
+                "Victorian England"
+            ]
         },
         {
             "question": "Who wrote 'Dracula'?",
-            "answer": "Bram Stoker"
+            "answer": [
+                "Bram Stoker",
+                "Stoker"
+            ]
         },
         {
             "question": "What is the title of the first book in J.R.R. Tolkien's 'The Lord of the Rings' trilogy?",
-            "answer": "The Fellowship of the Ring"
+            "answer": [
+                "The Fellowship of the Ring",
+                "Fellowship",
+                "First book"
+            ]
         },
         {
             "question": "Who is the author of 'The Grapes of Wrath'?",
-            "answer": "John Steinbeck"
+            "answer": [
+                "John Steinbeck",
+                "Steinbeck",
+                "John"
+            ]
         },
         {
             "question": "In 'Alice's Adventures in Wonderland', what animal is the March Hare?",
-            "answer": "Rabbit"
+            "answer": [
+                "Rabbit",
+                "March Hare",
+                "Hare"
+            ]
         },
         {
             "question": "What is the name of the ship in 'Moby Dick'?",
-            "answer": "Pequod"
+            "answer": [
+                "Pequod",
+                "Whaling ship",
+                "Ship"
+            ]
         },
         {
             "question": "Who wrote 'Anna Karenina'?",
-            "answer": "Leo Tolstoy"
+            "answer": [
+                "Leo Tolstoy",
+                "Tolstoy",
+                "Leo"
+            ]
         }
     ]
 }

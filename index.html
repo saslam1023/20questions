@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gstyle.css">
-    <script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js" defer></script>
+    <script src="quizscript.js" defer></script>
+    <script src="confetti.js" defer></script>
 
     <link
         href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
@@ -118,6 +118,7 @@
 
 
                 <p class="bold readymsg purplet">You have 90 seconds to answer 20 questions.</p>
+                <hr>
                 <div class="content-column">
                     <div>
                         <h2>Rules of the game</h2>
@@ -136,7 +137,7 @@
                             <li>You will have a chance to reveal the answers if you did not win at the end.</li>
                         </ol>
                     </div>
-
+                    <hr>
                     <div>
                         <h2>Unlock Knowledge and Fun with 20 Questions!</h2>
                         <ul id="intro">
@@ -167,6 +168,7 @@
                     <div id="counter"></div>
                     <button id="playagain" onclick="playAgain()">Play again</button>
                     <button id="revealanswers">Reveal answers</button>
+                    <button type="button" id="closebox" onclick="closeModal()">Close</button>
                 </div>
             </div>
             <div class="modal" id="winner">
@@ -174,7 +176,7 @@
                     <h1>You did it!</h1>
                     <div id="stats"></div>
                     <button onclick="playAgain()">Play again</button>
-
+                    <button type="button" id="quit" onclick="closeModal()">Close</button>
                 </div>
             </div>
 
@@ -185,11 +187,13 @@
                 <div class="modal-content">
                     <h1 id="currentTopic"></h1>
                     <h2 id="questionNo"></h2>
+                    <p id="response"></p>
                     <p id="question"></p>
+                    <label for="answer" class="hide">Answer</label>
                     <input type="text" id="answer"><br>
-                    <button onclick="checkAnswer()">Submit</button>
-                    <p id="response" style="display: none;"></p>
-                    <button id="close" onclick="closeModal()">Close</button>
+                    <button id="submit" onclick="checkAnswer()">Submit</button>
+                    <button type="button" id="next" onclick="nextQuestion()" class="orange">Next Question</button>
+                    <button type="button" id="close" onclick="closeModal()">Close</button>
                 </div>
             </div>
         </section>

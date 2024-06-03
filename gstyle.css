@@ -286,7 +286,7 @@ span {
 
 .modal-content {
     background-color: #fff;
-    padding: 30px;
+    padding: 0px 30px 30px 30px;
     border-radius: 8px;
     text-align: center;
     aspect-ratio: 1;
@@ -296,17 +296,19 @@ span {
 }
 
 .modal-content h1 {
-    margin: 0;
-    padding-bottom: 20px;
+    margin-top: 0px;
+    padding: 30px;
+    border: 0px solid black;
+    color: indigo;
 }
 
 .modal-content h2 {
     font-size: 30px;
     background-color: indigo;
     color: white;
-    margin: -38px -30px 30px -30px;
+    margin: -70px -30px 30px -30px;
     padding: 40px 0 15px 0;
-    border-radius: 8px 8px 0 0;
+    border-radius: 0 0;
     height: 30px;
 }
 
@@ -369,13 +371,15 @@ span {
 .theAnswer {
     font-size: 20px;
     font-weight: 700;
-    margin-top: 0px;
     padding: 0;
-    color: #fff;
+    color: black;
 }
 
 .theQuestion {
     padding: 5px;
+    background-color: white;
+    width: 100%;
+
 }
 
 .hide {
@@ -541,7 +545,6 @@ option,
     font-size: 18px;
     color: white;
     font-weight: 100;
-    margin-top: -20px;
 }
 
 .boxcurrentTopic {
@@ -586,6 +589,11 @@ option,
 
 /* Mobile */
 @media (max-width: 600px) {
+
+    section {
+        border: 0px solid red;
+        margin-top: 90px;
+    }
 
 
     header {
@@ -662,6 +670,7 @@ option,
         grid-template-columns: repeat(2, 1fr);
         /* Two columns */
         gap: 0px;
+
     }
 
     main.container,
@@ -674,18 +683,16 @@ option,
         margin-bottom: 50px;
     }
 
-    .topic-box,
-    .box {
-        width: 130px;
-        height: 130px;
-        margin: 5px;
-        padding: 0px;
+    div#dataset-select.container.topics>div {
+        padding: 10px;
+        width: 100px;
+        height: 100px;
     }
-
 
 
     .topic-icon {
         font-size: 48px;
+        margin-top: 10px;
         margin-bottom: 0px;
         padding: 0;
     }
@@ -728,7 +735,11 @@ option,
     #question,
     #response {
         font-size: 18px;
-        padding-top: 10px;
+        padding-top: 0px;
+    }
+
+    button {
+        background-color: #992be8;
     }
 
     .theAnswer,
@@ -759,9 +770,7 @@ option,
         margin: 0;
     }
 
-    .modal h1 {
-        margin-bottom: 20px;
-    }
+
 
     .modal button {
         width: 100%;
@@ -769,13 +778,17 @@ option,
     }
 
 
-
+    /*
     .modal-content h2 {
-        margin-top: -55px;
+        margin-top: -95px;
+        padding-top: 60px;
         margin-bottom: 0;
         padding-bottom: 15px;
         background-color: #FFA500;
+        height: 35px;
     }
+
+*/
 
     .box {
         height: 150px;
