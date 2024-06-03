@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Which car manufacturer produces the Mustang?",
+            "answer": "Ford"
+        },
+        {
+            "question": "What does SUV stand for in the automotive industry?",
+            "answer": "Sport Utility Vehicle"
+        },
+        {
+            "question": "Which company manufactures the Prius, a popular hybrid car?",
+            "answer": "Toyota"
+        },
+        {
+            "question": "What is the name of the iconic Italian sports car manufacturer?",
+            "answer": "Ferrari"
+        },
+        {
+            "question": "What does ABS stand for in car technology?",
+            "answer": "Anti-lock Braking System"
+        },
+        {
+            "question": "Which Japanese automaker produces the Civic and Accord models?",
+            "answer": "Honda"
+        },
+        {
+            "question": "What is the name of the German luxury car manufacturer known for its three-pointed star logo?",
+            "answer": "Mercedes-Benz"
+        },
+        {
+            "question": "Which American automaker produces the Corvette, a famous sports car?",
+            "answer": "Chevrolet"
+        },
+        {
+            "question": "What is the name of the electric car manufacturer founded by Elon Musk?",
+            "answer": "Tesla"
+        },
+        {
+            "question": "Which country is known for producing the Mini Cooper?",
+            "answer": "United Kingdom"
+        },
+        {
+            "question": "What is the name of the Japanese automaker known for the Skyline and GT-R models?",
+            "answer": "Nissan"
+        },
+        {
+            "question": "What does RPM stand for in car engines?",
+            "answer": "Revolutions Per Minute"
+        },
+        {
+            "question": "Which Italian automaker is famous for its 500 and Panda models?",
+            "answer": "Fiat"
+        },
+        {
+            "question": "What is the name of the luxury car division of Toyota?",
+            "answer": "Lexus"
+        },
+        {
+            "question": "Which German automaker produces the Beetle and Golf models?",
+            "answer": "Volkswagen"
+        },
+        {
+            "question": "What does 4WD stand for in automotive terminology?",
+            "answer": "Four-Wheel Drive"
+        },
+        {
+            "question": "Which American company is known for its pickup trucks like the F-150?",
+            "answer": "Ford"
+        },
+        {
+            "question": "What is the name of the British luxury car manufacturer owned by Tata Motors?",
+            "answer": "Jaguar"
+        },
+        {
+            "question": "Which Italian automaker produces the Aventador and Huracan models?",
+            "answer": "Lamborghini"
+        },
+        {
+            "question": "What does MPG stand for in fuel efficiency?",
+            "answer": "Miles Per Gallon"
+        }
+    ]
+}
